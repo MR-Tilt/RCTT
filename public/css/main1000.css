@@ -1,0 +1,400 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+#fiasko{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+}
+
+.fucking-bottom
+{
+    position: relative;
+    margin-left: auto;
+}
+
+.row
+{
+ display: flex;
+ flex-direction: row;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header
+{
+    
+    background-color:  white;
+    width: 100%;
+    height: 100px;
+    border-bottom:white solid 1px;
+    border-image: linear-gradient(180deg, rgba(211, 7, 228, 0.66) 0%, rgba(119, 65, 238, 0.620975) 33.78%, rgba(22, 126, 248, 0.58) 100%);;;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#rctt
+{
+    /* margin-right: auto; */
+    /* margin-left: 1vw; */
+    height: 68px;
+    width: 157px;
+    
+    
+
+}
+
+
+
+header a 
+{
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 2000;
+    
+    font-size: 24px;
+    font-weight: 200;
+    color: #000000;
+
+}
+
+
+
+
+.header-end
+{
+   margin-right: 1vw ;
+   
+}
+
+
+.header-center{
+    margin-left: 5px;
+    width: 40%;
+    position: absolute;
+}
+
+
+#eye{
+    height: 52px;
+    width: 54px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+.header-mega-button
+{
+    background:  linear-gradient(96.79deg, #42DCF1 -7.62%, rgba(211, 7, 228, 0.66) 106.93%);
+    border-radius: 50px;
+}
+
+#header-gradient
+{
+    height: 10px;
+    background: linear-gradient(180deg, rgba(211, 7, 228, 0.66) 0%, rgba(119, 65, 238, 0.620975) 33.78%, rgba(22, 126, 248, 0.58) 100%);
+
+}
+
+#button-down{
+    margin-left: 5%;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.dropdown-content-header{
+    width: auto;
+    background-color: #d23;
+    border-width: 1px;
+    border-image: linear-gradient(180deg, rgba(211, 7, 228, 0.66) 0%, rgba(119, 65, 238, 0.620975) 33.78%, rgba(22, 126, 248, 0.58) 100%);;
+    padding-top: 5px;
+    display: none ;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content-header a{
+    display: block;
+}
+
+.dropdown:hover .dropdown-content-header{display:block;}
+
+.main{
+    width: 100%;
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer
+{   
+    margin-top: auto;
+    border-top: black solid 1px;
+    height: 200px;
+    width: 100%;
+}
+
+footer p{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 24px;
+    
+}
+
+.footer-button
+{
+    margin-left: auto;
+    margin-right: 2vw;
+    margin-top: 35px;
+}
+
+.footer-button a
+{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;    
+}
+
+.footer-button a:hover{
+    text-decoration: none;
+}
+
+.all-footer-button
+{
+    margin-left: 4vw;
+}
+
+
+.footer-flex
+{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+
+.footer-margin-rctt
+{
+
+    margin-left: 1vw;
+    margin-top: 4vh;
+    
+
+}
+
+#rctt-footer
+{
+    margin-top: 2vh;
+    margin-right: auto;
+    margin-left: 1vw;
+    height: 68px;
+    width: 157px;
+}
+
+#sans-serif{
+    font-family: sans-serif;
+}
+.dropdown-button
+{
+    display: inline-block;
+}
+.dropdown-content
+{
+    position: absolute;
+    display: none;
+    border: 1px solid #474747;
+    /* border-bottom: 0; */
+}
+.dropdown-element
+{
+    display: block;
+    max-width: 200px;
+    background: #fff;
+    /* border-bottom: 1px solid #474747; */
+    padding: 5px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+}
+/* .dropdown-button:hover .dropdown-content
+{
+    display: block;
+} */
+.slider-container
+{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.slider
+{
+    overflow: hidden;
+    position: relative;
+    max-width: 900px;
+    height: auto;
+}
+.slider-items
+{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slider-items .item
+{
+    width: 20%;
+}
+.slider-items .item img
+{
+    max-width: 100%;
+    height: auto;
+}
+.slider-items input[type="Radio"]
+{
+    position: absolute;
+    visibility: hidden;
+}
+.slider-nav
+{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider-nav .slider-nav-items
+{
+    width: 60px;
+    height: 15px;
+    border: 2px solid #333;
+}
+@media (min-width: 950px) {
+
+/* 
+    .header-nav-items{
+        display: inline-block;
+        position: relative;
+        
+    } */
+    .header-center{
+        width: 100%;
+        padding-left: 15%;
+        padding-right:15%;
+        }
+    .all-header-button{
+        /* margin-left: 4vw; */
+        margin-left: 5%;
+        display: inline-block ;
+    }
+    .header-nav-dropdown
+    {
+        
+        display: none;
+    }
+}
+@media (max-width: 950px)
+{
+    .main{
+        font-size: 24pt;
+    }
+    #eye
+    {
+        margin-top: 5px;
+    }
+
+    .fucking-bottom
+    {
+        padding-top:5px ;
+        display: table;
+        margin-left: auto;
+        
+        
+    }
+
+    .row
+    {
+        /* position: absolute; */
+        padding-top: 10px;
+       
+        
+        
+    }
+    
+    .header-center
+    {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        }
+
+    .all-header-button
+    {
+        display: block;
+    }
+    .header-nav-dropdown
+    {
+        
+        display: block;
+        float: right;
+    }
+    .header-nav-items
+    {
+        position: absolute;
+        display: block;
+        float: right;
+        background-color: #fff;
+    }
+    .all-header-button
+    {
+        min-height: 50px;
+    }
+    
+    .header-nav-disabled
+    {
+        display: none;
+    }
+}
+button
+{
+    border: 0;
+    background-color: #fff;
+}
